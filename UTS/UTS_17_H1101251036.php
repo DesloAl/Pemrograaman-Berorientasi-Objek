@@ -119,3 +119,4 @@ foreach ($daftar as $d) {
     $d->cetakDetail();
     echo "<p>Total: Rp " . number_format($d->hitungTotal()) . "</p><hr>";
 }
+?>
